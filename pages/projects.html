@@ -9,10 +9,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="../scripts/base.css" />
         <link rel="stylesheet" href="../scripts/animate.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-            rel="stylesheet">
         <script src="https://kit.fontawesome.com/3c80283b16.js" crossorigin="anonymous"></script>
         <link rel="icon" type="image/x-icon" href="../src/favicon.ico">
         <script type="module" src="../scripts/script.js"></script>
@@ -35,7 +31,7 @@
             <div class="content clearfix">
                 <div class="left">
                     <div class="person">
-                        <img class="profilePic" src="../src/pfp.png"></img>
+                        <img class="profilePic" src="../src/pfp.png" />
                         <div class="bio">
                             <div class="name">
                                 Muneeb Iqbal
@@ -84,25 +80,40 @@
                     </div>
                 </div>
                 <div class="right transition-main">
-                    <section class="edu">
+                    <section class="projects">
+
                         <h1 class="section-heading">Projects</h1>
+                        
+                        <div class="project-item">
+                            <h2 class="sub-heading">
+                                Smart Finance | Final Year Project (COMSATS University Islamabad)
+                            </h2>
+                            <h4>February 2025 &#8212; December 2025</h4>
+                            <ul class="proj-list">
+                                <li class="proj-item">Built budget insights using ARIMA and LSTM to analyze income and spending patterns.</li>
+                                <li class="proj-item">Implemented expense forecasting: LSTM for short-term (3 months), ARIMA for long-term trends.</li>
+                                <li class="proj-item">Developed goal-based savings recommendations based on real-time affordability.</li>
+                                <li class="proj-item">Enabled expense tracking, categorization, authentication, and synced transaction history.</li>
+                                <li class="proj-item">Created data visualizations for trends and forecasts in a clean UI.</li>
+                            </ul>
+                        </div>
 
-                        <h2 class="sub-heading">Smart Finance | COMSATS University Islamabad</h2>
-                        <h4>February 2025 &#8212; December 2025</h4>
-                        <h5>Wah Cantonment, Pakistan</h5>
-                        <li class="proj-item">Designed intelligent budget insights using ARIMA and LSTM models to analyze user income and spending patterns.</li>
-                        <li class="proj-item">Implemented future expense prediction, leveraging LSTM for short-term (3-month) trends and ARIMA for long-term forecasting accuracy.</li>
-                        <li class="proj-item">Built a goal-based savings recommendation system that evaluates user affordability based on real-time financial behavior.</li>
-                        <li class="proj-item">Enabled expense tracking, categorized budgeting, authentication, and transaction history with real-time data synchronization.</li>
-                        <li class="proj-item">Integrated data-driven visual analytics to present spending trends, forecasts, and insights through an intuitive UI.</li>
-
-                        <h2 class="sub-heading">AroundYou | COMSATS University Islamabad</h2>
-                        <h4>February 2025 &#8212; June 2025</h4>
-                        <h5>Wah Cantonment, Pakistan</h5>
-                        <li class="proj-item">Developed a real-time messaging application using the MERN stack with Socket.IO for instant, bidirectional communication.</li>
-                        <li class="proj-item">Implemented secure authentication, responsive chat interfaces, and persistent message storage using React and MongoDB.</li>
-                        <li class="proj-item">Integrated WebRTC-based peer-to-peer audio calling, enabling low-latency direct communication between users.</li>
-                        <li class="proj-item">Designed a scalable backend with Node.js and Express, handling real-time events, user sessions, and chat room management.</li>
+                        <div class="project-item">
+                            <h2 class="sub-heading">
+                                AroundYou | Real-Time Messaging & Calling App (MERN)
+                            </h2>
+                            <h4>November 2025 &#8212; Present</h4>
+                            <ul class="proj-list">
+                                <li class="proj-item">Built real-time chat using MERN and Socket.IO for bidirectional communication.</li>
+                                <li class="proj-item">Implemented authentication, responsive UI, and persistent messaging with MongoDB.</li>
+                                <li class="proj-item">Integrated WebRTC peer-to-peer audio calling for low-latency communication.</li>
+                                <li class="proj-item">Designed scalable Node.js/Express backend for events, sessions, and rooms.</li>
+                            </ul>
+                            <div class="project-links">
+                                <a href="https://aroundyou.online/" target="_blank" class="project-link">View App</a>
+                                <a href="https://github.com/m-muneeb-iqbal/AroundYOU-MERN" target="_blank" class="project-link">View Code</a>
+                            </div>
+                        </div>
 
                     </section>
                 </div>
